@@ -200,7 +200,7 @@ body {
   align-items: flex-end;
   justify-content: center;
   background-color: #f0f0f0;
-  background-image: url("images/bg.png");
+  background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -315,14 +315,14 @@ header .header-container .header-navbar .header-burger {
   z-index: 1000;
   width: 93px;
   height: 48px;
-  background-image: url(images/burger.svg);
+  background-image: url(../images/burger.svg);
   background-size: 100%;
   background-position: center;
   transition: all 0.4s;
   background-repeat: no-repeat;
 }
 header .header-container .header-navbar .header-burger.show {
-  background-image: url(images/carbon_close.svg);
+  background-image: url(../images/carbon_close.svg);
   background-size: 64px;
 }
 @media screen and (max-width: 660px) {
@@ -1274,10 +1274,10 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   box-shadow: none;
 }
 .main-landing .main-container .faq .accordion .accordion-button::after {
-  background-image: url(images/plus.svg);
+  background-image: url(../images/plus.svg);
 }
 .main-landing .main-container .faq .accordion .accordion-button:not(.collapsed)::after {
-  background-image: url(images/close.svg);
+  background-image: url(../images/close.svg);
 }
 .main-landing .main-container .faq .accordion .accordion-body {
   padding: 16px 32px;
@@ -1524,7 +1524,7 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   position: absolute;
   right: 30px;
   top: 30px;
-  background-image: url(images/carbon_close.svg);
+  background-image: url(../images/carbon_close.svg);
   opacity: 1;
   background-size: 34px;
 }

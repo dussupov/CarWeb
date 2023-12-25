@@ -204,7 +204,7 @@ body {
     align-items: flex-end;
     justify-content: center;
     background-color: #f0f0f0;
-    background-image: url('images/bg.png');
+    background-image: url('../images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -328,14 +328,14 @@ header {
                 z-index: 1000;
                 width: 93px;
                 height: 48px;
-                background-image: url(images/burger.svg);
+                background-image: url(../images/burger.svg);
                 background-size: 100%;
                 background-position: center;
                 transition: all .4s;
                 background-repeat: no-repeat;
 
                 &.show {
-                    background-image: url(images/carbon_close.svg);
+                    background-image: url(../images/carbon_close.svg);
                     background-size: 64px;
                 }
 
@@ -1366,12 +1366,12 @@ header {
                     }
 
                     &::after {
-                        background-image: url(images/plus.svg);
+                        background-image: url(../images/plus.svg);
                     }
                 }
 
                 .accordion-button:not(.collapsed)::after {
-                    background-image: url(images/close.svg);
+                    background-image: url(../images/close.svg);
                 }
 
                 .accordion-body {
@@ -1631,7 +1631,7 @@ header {
             position: absolute;
             right: 30px;
             top: 30px;
-            background-image: url(images/carbon_close.svg);
+            background-image: url(../images/carbon_close.svg);
             opacity: 1;
             background-size: 34px;
         }
