@@ -15,8 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
             // Прокрутка вниз
             if (scrollPosition < window.innerHeight) {
                 const circleSize = (window.innerHeight - scrollPosition) * 2;
-                blackCircle.style.width = `3000px`;
-                blackCircle.style.height = `3000px`;
+                console.log(circleSize)
+                blackCircle.style.width = `${circleSize + 400}px`;
+                blackCircle.style.height = `${circleSize + 400}px`;
                 blackCircle.style.borderRadius = `0`;
                 this.setTimeout(()=>{
                     mainLanding.classList.add('show')
