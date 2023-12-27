@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
             if (scrollPosition < window.innerHeight) {
                 const circleSize = (window.innerHeight - scrollPosition) * 2;
                 console.log(circleSize)
-                blackCircle.style.width = `${circleSize + 400}px`;
-                blackCircle.style.height = `${circleSize + 400}px`;
+                blackCircle.style.width = `${2000 + 400}px`;
+                blackCircle.style.height = `${2000 + 400}px`;
                 blackCircle.style.borderRadius = `0`;
                 this.setTimeout(()=>{
                     mainLanding.classList.add('show')

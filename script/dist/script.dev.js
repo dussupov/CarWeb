@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
       if (scrollPosition < window.innerHeight) {
         var circleSize = (window.innerHeight - scrollPosition) * 2;
         console.log(circleSize);
-        blackCircle.style.width = "".concat(circleSize + 400, "px");
-        blackCircle.style.height = "".concat(circleSize + 400, "px");
+        blackCircle.style.width = "".concat(2000 + 400, "px");
+        blackCircle.style.height = "".concat(2000 + 400, "px");
         blackCircle.style.borderRadius = "0";
         this.setTimeout(function () {
           mainLanding.classList.add('show');
