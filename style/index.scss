@@ -336,18 +336,23 @@ header {
                 height: 48px;
                 background-image: url(../images/burger.svg);
                 background-position: center;
-                background-size: clamp(40px, 2vw, 64px);
-                transition: all .6s;
+                background-size: 64px; /* Фиксированный размер вместо clamp */
+                transition: all 0.6s;
                 background-repeat: no-repeat;
-
+            
                 &.show {
                     background-image: url(../images/carbon_close.svg);
                 }
-
-                @media screen and (max-width:660px) {
+            
+                @media screen and (max-width: 660px) {
                     width: 68px;
                 }
+            
+                /* Оптимизация анимации */
+                will-change: transform;
+                transform: translateZ(0);
             }
+            
 
             .header-burger__content {
                 position: absolute;

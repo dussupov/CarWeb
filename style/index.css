@@ -321,9 +321,13 @@ header .header-container .header-navbar .header-burger {
   height: 48px;
   background-image: url(../images/burger.svg);
   background-position: center;
-  background-size: clamp(40px, 2vw, 64px);
+  background-size: 64px;
+  /* Фиксированный размер вместо clamp */
   transition: all 0.6s;
   background-repeat: no-repeat;
+  /* Оптимизация анимации */
+  will-change: transform;
+  transform: translateZ(0);
 }
 header .header-container .header-navbar .header-burger.show {
   background-image: url(../images/carbon_close.svg);
