@@ -322,8 +322,6 @@ header .header-container .header-navbar .header-burger {
   background-image: url(../images/burger.svg);
   background-position: center;
   background-size: 64px;
-  /* Фиксированный размер вместо clamp */
-  transition: all 0.6s;
   background-repeat: no-repeat;
   /* Оптимизация анимации */
   will-change: transform;
