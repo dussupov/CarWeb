@@ -51,5 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
   burger.addEventListener('click', function () {
     burger.classList.toggle('show');
     burgerContent.classList.toggle('show');
+    document.querySelector('body').classList.toggle('lock');
   });
 });
