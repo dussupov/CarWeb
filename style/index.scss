@@ -364,6 +364,12 @@ header {
                 transform: translateY(-200%);
                 transition: all 0.4s ease;
 
+                
+                @media screen and (max-width: 550px){
+                    flex-direction: column;
+                    align-items: center;
+                }
+
                 .header-burger__content-left {
                     .burger-items {
                         display: flex;
@@ -375,6 +381,10 @@ header {
                 .header-burger__content-right {
                     display: flex;
                     justify-content: end;
+
+                    @media screen and (max-width: 550px){
+                        justify-content: center;
+                    }
 
                     .burger-items {
                         display: flex;
