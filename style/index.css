@@ -192,6 +192,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .welcome-screen {
@@ -294,7 +295,7 @@ header .header-container .header-logo {
 }
 @media screen and (max-width: 660px) {
   header .header-container .header-logo {
-    width: 195px;
+    width: 150px;
   }
 }
 header .header-container .header-logo img {
@@ -463,7 +464,7 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
 }
 @media screen and (max-width: 560px) {
   .main-landing .main-container .welcome .welcome-title {
-    font-size: 54px;
+    font-size: 45px;
     padding: 0;
   }
 }
@@ -569,12 +570,13 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   margin-top: 40px;
   background-color: #1A1A1A;
   border-radius: 20px;
-  padding: 70px;
+  padding: clamp(40px, 2vw, 70px);
   position: relative;
+  padding-top: 150px;
 }
 @media screen and (max-width: 1060px) {
   .main-landing .main-container .about-us .about-us__body {
-    padding-top: 140px;
+    padding-top: 40px;
   }
 }
 .main-landing .main-container .about-us .about-us__body .about-us__title {
@@ -589,8 +591,10 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
 }
 @media screen and (max-width: 1060px) {
   .main-landing .main-container .about-us .about-us__body .about-us__title {
-    transform: unset;
-    left: 90px;
+    padding-top: 0;
+    position: relative;
+    padding-bottom: 35px;
+    top: 0;
   }
 }
 .main-landing .main-container .about-us .about-us__body .about-us__items {
@@ -1161,7 +1165,7 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   border: 1px solid #f2f2f2;
   max-height: 42px;
   border-radius: 117px;
-  width: 60%;
+  width: clamp(100%, 2vw, 60%);
   text-wrap: nowrap;
   cursor: pointer;
 }
@@ -1324,7 +1328,7 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
 }
 @media screen and (max-width: 560px) {
   .main-landing .main-container .footer .footer-up .footer-title {
-    font-size: 54px;
+    font-size: 45px;
     padding: 0;
     text-align: center;
   }
@@ -1461,7 +1465,12 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
-  transition: all 1s;
+  transition: all 1.5s ease;
+}
+@media screen and (max-width: 660px) {
+  .hidden {
+    transition: all 2s ease;
+  }
 }
 .hidden.right-anim {
   transform: translateX(100%);
