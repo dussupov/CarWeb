@@ -1583,11 +1583,7 @@ header {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 1.5s;
-
-    @media screen and (max-width: 660px) {
-        transition: all 2s;
-    }
+    transition: all 1s;
 
     &.right-anim {
         transform: translateX(100%);
