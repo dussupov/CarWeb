@@ -344,7 +344,7 @@ header .header-container .header-navbar .header-burger__content {
   background: rgba(37, 37, 37, 0.2);
   padding: 54px 50px;
   backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(15px);
   display: flex;
   justify-content: space-between;
   align-items: end;
