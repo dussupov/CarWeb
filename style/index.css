@@ -383,6 +383,7 @@ header .header-container .header-navbar .header-burger__content .burger-item {
   font-size: clamp(19px, 1vw, 50px);
   color: #fff;
   font-family: "Lithium_tf", sans-serif;
+  cursor: pointer;
 }
 header .header-container .header-navbar .header-burger__content.show {
   transform: translateX(0);
