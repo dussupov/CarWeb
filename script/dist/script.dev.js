@@ -54,24 +54,35 @@ document.addEventListener("DOMContentLoaded", function () {
     burgerContent.classList.toggle('show');
     document.querySelector('body').classList.toggle('lock');
   });
-  var links = document.querySelectorAll('.burger-items .burger-item a[href^="#"]');
+  var links = document.querySelectorAll('a[href^="#"]');
   links.forEach(function (link) {
     link.addEventListener("click", function (e) {
       document.querySelector('body').classList.remove('lock');
       document.querySelector('.header-burger__content').classList.remove('show');
-      document.querySelector('.header-burger').classList.remove('show'); // Предотвращаем стандартное поведение ссылки
-
-      e.preventDefault(); // Получаем целевой элемент, к которому нужно прокрутиться
-
+      document.querySelector('.header-burger').classList.remove('show');
+      e.preventDefault();
       var targetId = this.getAttribute("href").substring(1);
-      var targetElement = document.getElementById(targetId); // Вычисляем расстояние от начала страницы до целевого элемента
+      var targetElement = document.getElementById(targetId);
+      var targetPosition = targetElement.offsetTop;
 
-      var targetPosition = targetElement.offsetTop; // Плавно прокручиваем страницу до целевой позиции
-
-      window.scrollTo({
-        top: targetPosition,
-        behavior: "smooth"
-      });
+      if (!document.querySelector('.main-landing').classList.contains('show')) {
+        window.scroll({
+          top: targetPosition + 10,
+          behavior: 'smooth'
+        });
+        setTimeout(function () {
+          var targetPosition = targetElement.offsetTop;
+          window.scroll({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }, [400]);
+      } else {
+        window.scroll({
+          top: targetPosition,
+          behavior: "smooth"
+        });
+      }
     });
   });
 });

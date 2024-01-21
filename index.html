@@ -93,7 +93,7 @@
         <div class="main-landing">
             <div class="main-container">
                 <!-- WELCOME -->
-                <div class="welcome">
+                <div class="welcome" id="home">
                     <div class="welcome-title">
                         <div class="welcome-title__first hidden">
                             <span>Every detail</span>
@@ -105,7 +105,7 @@
                     <div class="welcome-btn hidden">
                         <div class="welcome-btn__container">
                             <div class="welcome-btn__text">
-                                <span>More about services</span>
+                                <a href="/services.html" target="_blank">More about services</a>
                             </div>
                             <div class="welcome-btn__arrow">
                                 <img src="images/arrow.svg" alt="arrow">
@@ -337,12 +337,55 @@
                     </div>
                     <div class="form-body">
                         <div class="form-item hidden right-anim">
-                            <span>First name</span>
-                            <input type="text">
+                            <span>Name*</span>
+                            <input type="text" placeholder="Enter your name">
                         </div>
                         <div class="form-item hidden right-anim">
-                            <span>Email</span>
-                            <input type="text">
+                            <span>Vehicle information* </span>
+                            <input type="text" placeholder="Make / Model / Year">
+                        </div>
+                        <div class="form-item hidden right-anim">
+                            <span>Email*</span>
+                            <input type="text" placeholder="Enter your Email">
+                        </div>
+                        <div class="form-item hidden right-anim">
+                            <span>Phone</span>
+                            <input type="text" placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-item hidden right-anim checkbox">
+                            <label class="b-contain">
+                                <span>PPF (PAINT PROTECTION FILM)</span>
+                                <input type="checkbox" />
+                                <div class="b-input"></div>
+                            </label>
+                        </div>
+                        <div class="form-item hidden right-anim checkbox">
+                            <label class="b-contain">
+                                <span>PAINT CORRECTION</span>
+                                <input type="checkbox" />
+                                <div class="b-input"></div>
+                            </label>
+                        </div>
+                        <div class="form-item hidden right-anim checkbox">
+                            <label class="b-contain">
+                                <span>CERAMIC COATING</span>
+                                <input type="checkbox" />
+                                <div class="b-input"></div>
+                            </label>
+                        </div>
+                        <div class="form-item hidden right-anim checkbox">
+                            <label class="b-contain">
+                                <span>INTERIOR DETAILING</span>
+                                <input type="checkbox" />
+                                <div class="b-input"></div>
+                            </label>
+                        </div>
+                        <div class="form-item hidden right-anim checkbox">
+                            <label class="b-contain">
+                                <span>DETAIL 3 PHASE CAR WASH *indoor</span>
+                                <input type="checkbox" />
+                                <div class="b-input"></div>
+                            </label>
                         </div>
                         <div class="form-item hidden right-anim checkbox">
                             <label class="b-contain">
@@ -486,7 +529,7 @@
                                     detailing for my Mercedes Benz C300 and I absolutely in love with the result. My
                                     2019 car shines like I just brought her from the salon...........</span>
                             </div>
-                            <div class="feedback-item__btn" data-bs-toggle="modal" data-bs-target="#review">
+                            <div class="feedback-item__btn" data-bs-toggle="modal" data-bs-target="#reviewTwo">
                                 <span>View full review</span>
                             </div>
                         </div>
@@ -501,7 +544,7 @@
                                     through the tint selection, and had the car ready for me that same
                                     evening..........</span>
                             </div>
-                            <div class="feedback-item__btn" data-bs-toggle="modal" data-bs-target="#review">
+                            <div class="feedback-item__btn" data-bs-toggle="modal" data-bs-target="#reviewThree">
                                 <span>View full review</span>
                             </div>
                         </div>
@@ -516,7 +559,7 @@
                                     attitude made the process a breeze. If you're looking for quality work and great
                                     customer service, look no further...........</span>
                             </div>
-                            <div class="feedback-item__btn" data-bs-toggle="modal" data-bs-target="#review">
+                            <div class="feedback-item__btn" data-bs-toggle="modal" data-bs-target="#reviewFour">
                                 <span>View full review</span>
                             </div>
                         </div>
@@ -530,7 +573,7 @@
                                     was astounding, quick, and transparent work. Thank you Nick and your team for the
                                     job! Definitely recommend for any job on any type of car!..........</span>
                             </div>
-                            <div class="feedback-item__btn" data-bs-toggle="modal" data-bs-target="#review">
+                            <div class="feedback-item__btn" data-bs-toggle="modal" data-bs-target="#reviewFive">
                                 <span>View full review</span>
                             </div>
                         </div>
@@ -544,7 +587,7 @@
                                     correction and front ppf and ceramic coating, absolutely outstanding I’ve never seen
                                     my car look this good. Thank you guys..........</span>
                             </div>
-                            <div class="feedback-item__btn" data-bs-toggle="modal" data-bs-target="#review">
+                            <div class="feedback-item__btn" data-bs-toggle="modal" data-bs-target="#reviewSix">
                                 <span>View full review</span>
                             </div>
                         </div>
@@ -715,22 +758,22 @@
                             </div>
                             <div class="footer-cop__right">
                                 <div class="footer-cop__item">
-                                    <span>Home</span>
+                                    <a href="#home">Home</a>
                                 </div>
                                 <div class="footer-cop__item">
-                                    <span>About us</span>
+                                    <a href="#about-us">About us</a>
                                 </div>
                                 <div class="footer-cop__item">
-                                    <span>Services</span>
+                                    <a href="#services">Services</a>
                                 </div>
                                 <div class="footer-cop__item">
-                                    <span>Process</span>
+                                    <a href="#how-we-work">Process</a>
                                 </div>
                                 <div class="footer-cop__item">
-                                    <span>FAQ</span>
+                                    <a href="#faq">FAQ</a>
                                 </div>
                                 <div class="footer-cop__item">
-                                    <span>Contact</span>
+                                    <a href="#contacts">Contact</a>
                                 </div>
                             </div>
                         </div>
@@ -760,49 +803,69 @@
                     <div class="modal-input">
                         <div class="modal-item">
                             <span>First name</span>
-                            <input type="text">
+                            <input type="text" placeholder="Enter your name">
                         </div>
                         <div class="modal-item">
-                            <span>Phone</span>
-                            <input type="text">
+                            <span>Vehicle information *</span>
+                            <input type="text" placeholder="Make / Model / Year">
                         </div>
                         <div class="modal-item">
-                            <span>Email</span>
-                            <input type="text">
+                            <span>Email *</span>
+                            <input type="text" placeholder="Enter your email">
                         </div>
                         <div class="modal-item">
-                            <span>Car</span>
-                            <input type="text">
+                            <span>Phone *</span>
+                            <input type="text" placeholder="Enter your phone number">
                         </div>
                     </div>
                     <div class="modal-radio">
                         <div class="modal-checkbox__title">
                             <span>Select an option</span>
                         </div>
-                        <div class="modal-checkbox__items">
-                            <div class="modal-checkbox__item">
-                                <label class="b-contain">
-                                    <span>FULL FRONT</span>
-                                    <input name="radio" type="radio" />
-                                    <div class="b-input"></div>
-                                </label>
-                            </div>
-                            <div class="modal-checkbox__item">
-                                <label class="b-contain">
-                                    <span>FRONT + HIGH IMPACT</span>
-                                    <input name="radio" type="radio" />
-                                    <div class="b-input"></div>
-                                </label>
-                            </div>
-                            <div class="modal-checkbox__item">
-                                <label class="b-contain">
-                                    <span>FULL CAR</span>
-                                    <input name="radio" type="radio" />
-                                    <div class="b-input"></div>
-                                </label>
-                            </div>
-                        </div>
                     </div>
+                    <div class="modal-checkbox">
+                        <label class="b-contain">
+                            <span>PPF (PAINT PROTECTION FILM)</span>
+                            <input type="checkbox" />
+                            <div class="b-input"></div>
+                        </label>
+                    </div>
+                    <div class="modal-checkbox">
+                        <label class="b-contain">
+                            <span>PAINT CORRECTION</span>
+                            <input type="checkbox" />
+                            <div class="b-input"></div>
+                        </label>
+                    </div>
+                    <div class="modal-checkbox">
+                        <label class="b-contain">
+                            <span>CERAMIC COATING</span>
+                            <input type="checkbox" />
+                            <div class="b-input"></div>
+                        </label>
+                    </div>
+                    <div class="modal-checkbox">
+                        <label class="b-contain">
+                            <span>INTERIOR DETAILING</span>
+                            <input type="checkbox" />
+                            <div class="b-input"></div>
+                        </label>
+                    </div>
+                    <div class="modal-checkbox">
+                        <label class="b-contain">
+                            <span>WINDOW TINT</span>
+                            <input type="checkbox" />
+                            <div class="b-input"></div>
+                        </label>
+                    </div>
+                    <div class="modal-checkbox">
+                        <label class="b-contain">
+                            <span>DETAIL 3 PHASE CAR WASH *indoor</span>
+                            <input type="checkbox" />
+                            <div class="b-input"></div>
+                        </label>
+                    </div>
+                    <hr>
                     <div class="modal-checkbox">
                         <label class="b-contain">
                             <span>By clicking this button, you consent to our privacy policy</span>
@@ -832,6 +895,206 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title" id="reviewLabel">Nikita K.</h1>
+                    <span class="modal-subtitle">I needed my front windows and windshield to be tinted, and one of my
+                        friends recommended this business. I've had my windows tinted on other cars before but have
+                        never received this level of care and quality of service from other businesses. These guys did
+                        an outstanding job on my car and even included a complimentary car wash.I highly recommend this
+                        business!I will definitely be back! <br><br> A major plus for me now is that I don’t have to use
+                        my AC as much to keep my car cool. If you're looking where to ceramic tint your car windows with
+                        high-quality film, I can unquestionably recommend NAPP WERKS.</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-imgs">
+                        <div class="modal-body-img">
+                            <img src="images/car/review-car1.png" alt="car">
+                        </div>
+                        <div class="modal-body-img">
+                            <img src="images/car/review-car2.png" alt="car">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-btn">
+                        <div class="modal-btn__container">
+                            <div class="modal-btn__text">
+                                <span>View the review on Google</span>
+                            </div>
+                            <div class="modal-btn__arrow">
+                                <img src="images/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="reviewTwo" tabindex="-1" aria-labelledby="reviewTwoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="reviewTwoLabel">Nikita K.</h1>
+                    <span class="modal-subtitle">I needed my front windows and windshield to be tinted, and one of my
+                        friends recommended this business. I've had my windows tinted on other cars before but have
+                        never received this level of care and quality of service from other businesses. These guys did
+                        an outstanding job on my car and even included a complimentary car wash.I highly recommend this
+                        business!I will definitely be back! <br><br> A major plus for me now is that I don’t have to use
+                        my AC as much to keep my car cool. If you're looking where to ceramic tint your car windows with
+                        high-quality film, I can unquestionably recommend NAPP WERKS.</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-imgs">
+                        <div class="modal-body-img">
+                            <img src="images/car/review-car1.png" alt="car">
+                        </div>
+                        <div class="modal-body-img">
+                            <img src="images/car/review-car2.png" alt="car">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-btn">
+                        <div class="modal-btn__container">
+                            <div class="modal-btn__text">
+                                <span>View the review on Google</span>
+                            </div>
+                            <div class="modal-btn__arrow">
+                                <img src="images/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="reviewThree" tabindex="-1" aria-labelledby="reviewThreeLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="reviewThreeLabel">Nikita K.</h1>
+                    <span class="modal-subtitle">I needed my front windows and windshield to be tinted, and one of my
+                        friends recommended this business. I've had my windows tinted on other cars before but have
+                        never received this level of care and quality of service from other businesses. These guys did
+                        an outstanding job on my car and even included a complimentary car wash.I highly recommend this
+                        business!I will definitely be back! <br><br> A major plus for me now is that I don’t have to use
+                        my AC as much to keep my car cool. If you're looking where to ceramic tint your car windows with
+                        high-quality film, I can unquestionably recommend NAPP WERKS.</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-imgs">
+                        <div class="modal-body-img">
+                            <img src="images/car/review-car1.png" alt="car">
+                        </div>
+                        <div class="modal-body-img">
+                            <img src="images/car/review-car2.png" alt="car">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-btn">
+                        <div class="modal-btn__container">
+                            <div class="modal-btn__text">
+                                <span>View the review on Google</span>
+                            </div>
+                            <div class="modal-btn__arrow">
+                                <img src="images/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="reviewFour" tabindex="-1" aria-labelledby="reviewFourLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="reviewFourLabel">Nikita K.</h1>
+                    <span class="modal-subtitle">I needed my front windows and windshield to be tinted, and one of my
+                        friends recommended this business. I've had my windows tinted on other cars before but have
+                        never received this level of care and quality of service from other businesses. These guys did
+                        an outstanding job on my car and even included a complimentary car wash.I highly recommend this
+                        business!I will definitely be back! <br><br> A major plus for me now is that I don’t have to use
+                        my AC as much to keep my car cool. If you're looking where to ceramic tint your car windows with
+                        high-quality film, I can unquestionably recommend NAPP WERKS.</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-imgs">
+                        <div class="modal-body-img">
+                            <img src="images/car/review-car1.png" alt="car">
+                        </div>
+                        <div class="modal-body-img">
+                            <img src="images/car/review-car2.png" alt="car">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-btn">
+                        <div class="modal-btn__container">
+                            <div class="modal-btn__text">
+                                <span>View the review on Google</span>
+                            </div>
+                            <div class="modal-btn__arrow">
+                                <img src="images/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="reviewFive" tabindex="-1" aria-labelledby="reviewFiveLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="reviewFiveLabel">Nikita K.</h1>
+                    <span class="modal-subtitle">I needed my front windows and windshield to be tinted, and one of my
+                        friends recommended this business. I've had my windows tinted on other cars before but have
+                        never received this level of care and quality of service from other businesses. These guys did
+                        an outstanding job on my car and even included a complimentary car wash.I highly recommend this
+                        business!I will definitely be back! <br><br> A major plus for me now is that I don’t have to use
+                        my AC as much to keep my car cool. If you're looking where to ceramic tint your car windows with
+                        high-quality film, I can unquestionably recommend NAPP WERKS.</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-imgs">
+                        <div class="modal-body-img">
+                            <img src="images/car/review-car1.png" alt="car">
+                        </div>
+                        <div class="modal-body-img">
+                            <img src="images/car/review-car2.png" alt="car">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-btn">
+                        <div class="modal-btn__container">
+                            <div class="modal-btn__text">
+                                <span>View the review on Google</span>
+                            </div>
+                            <div class="modal-btn__arrow">
+                                <img src="images/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="reviewSix" tabindex="-1" aria-labelledby="reviewSixLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="reviewSixLabel">Nikita K.</h1>
                     <span class="modal-subtitle">I needed my front windows and windshield to be tinted, and one of my
                         friends recommended this business. I've had my windows tinted on other cars before but have
                         never received this level of care and quality of service from other businesses. These guys did

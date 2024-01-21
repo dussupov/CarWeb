@@ -353,7 +353,7 @@ header {
             .header-burger__content {
                 position: absolute;
                 width: 100%;
-                height: 80vh;
+                height: 90vh;
                 left: 0;
                 top: -1px;
                 background: rgba(37, 37, 37, 0.20);
@@ -1611,7 +1611,12 @@ header {
 // MODAL
 
 #leaveRequest,
-#review {
+#review,
+#reviewTwo,
+#reviewThree,
+#reviewFour,
+#reviewFive,
+#reviewSix {
     color: #F2F2F2;
 
     .modal-content {
@@ -1792,7 +1797,12 @@ header {
     }
 }
 
-#review {
+#review,
+#reviewTwo,
+#reviewThree,
+#reviewFour,
+#reviewFive,
+#reviewSix {
     .modal-header {
         align-items: flex-start;
     }

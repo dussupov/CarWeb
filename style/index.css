@@ -338,7 +338,7 @@ header .header-container .header-navbar .header-burger.show {
 header .header-container .header-navbar .header-burger__content {
   position: absolute;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   left: 0;
   top: -1px;
   background: rgba(37, 37, 37, 0.2);
@@ -1501,47 +1501,92 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
 }
 
 #leaveRequest,
-#review {
+#review,
+#reviewTwo,
+#reviewThree,
+#reviewFour,
+#reviewFive,
+#reviewSix {
   color: #F2F2F2;
 }
 #leaveRequest .modal-content,
-#review .modal-content {
+#review .modal-content,
+#reviewTwo .modal-content,
+#reviewThree .modal-content,
+#reviewFour .modal-content,
+#reviewFive .modal-content,
+#reviewSix .modal-content {
   background-color: #0D0D0D;
 }
 #leaveRequest .modal-content,
-#review .modal-content {
+#review .modal-content,
+#reviewTwo .modal-content,
+#reviewThree .modal-content,
+#reviewFour .modal-content,
+#reviewFive .modal-content,
+#reviewSix .modal-content {
   padding: 50px;
 }
 #leaveRequest .modal-dialog,
-#review .modal-dialog {
+#review .modal-dialog,
+#reviewTwo .modal-dialog,
+#reviewThree .modal-dialog,
+#reviewFour .modal-dialog,
+#reviewFive .modal-dialog,
+#reviewSix .modal-dialog {
   max-width: 56%;
 }
 @media screen and (max-width: 900px) {
   #leaveRequest .modal-dialog,
-#review .modal-dialog {
+#review .modal-dialog,
+#reviewTwo .modal-dialog,
+#reviewThree .modal-dialog,
+#reviewFour .modal-dialog,
+#reviewFive .modal-dialog,
+#reviewSix .modal-dialog {
     max-width: 95%;
   }
 }
 #leaveRequest .modal-header,
-#review .modal-header {
+#review .modal-header,
+#reviewTwo .modal-header,
+#reviewThree .modal-header,
+#reviewFour .modal-header,
+#reviewFive .modal-header,
+#reviewSix .modal-header {
   justify-content: center;
   flex-direction: column;
   padding: 0;
   border: 0;
 }
 #leaveRequest .modal-header .modal-title,
-#review .modal-header .modal-title {
+#review .modal-header .modal-title,
+#reviewTwo .modal-header .modal-title,
+#reviewThree .modal-header .modal-title,
+#reviewFour .modal-header .modal-title,
+#reviewFive .modal-header .modal-title,
+#reviewSix .modal-header .modal-title {
   font-size: clamp(25px, 2vw, 50px);
   font-family: "Lithium_tf", sans-serif;
 }
 #leaveRequest .modal-header .modal-subtitle,
-#review .modal-header .modal-subtitle {
+#review .modal-header .modal-subtitle,
+#reviewTwo .modal-header .modal-subtitle,
+#reviewThree .modal-header .modal-subtitle,
+#reviewFour .modal-header .modal-subtitle,
+#reviewFive .modal-header .modal-subtitle,
+#reviewSix .modal-header .modal-subtitle {
   font-size: clamp(14px, 2vw, 50px);
   color: #f2f2f2;
   font-family: "SuisseIntlRegular", sans-serif;
 }
 #leaveRequest .modal-header .btn-close,
-#review .modal-header .btn-close {
+#review .modal-header .btn-close,
+#reviewTwo .modal-header .btn-close,
+#reviewThree .modal-header .btn-close,
+#reviewFour .modal-header .btn-close,
+#reviewFive .modal-header .btn-close,
+#reviewSix .modal-header .btn-close {
   position: absolute;
   right: 30px;
   top: 30px;
@@ -1550,7 +1595,12 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   background-size: 34px;
 }
 #leaveRequest .modal-body .modal-input,
-#review .modal-body .modal-input {
+#review .modal-body .modal-input,
+#reviewTwo .modal-body .modal-input,
+#reviewThree .modal-body .modal-input,
+#reviewFour .modal-body .modal-input,
+#reviewFive .modal-body .modal-input,
+#reviewSix .modal-body .modal-input {
   margin-top: 32px;
   display: flex;
   flex-wrap: wrap;
@@ -1558,22 +1608,42 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   justify-content: space-between;
 }
 #leaveRequest .modal-btn__text,
-#review .modal-btn__text {
+#review .modal-btn__text,
+#reviewTwo .modal-btn__text,
+#reviewThree .modal-btn__text,
+#reviewFour .modal-btn__text,
+#reviewFive .modal-btn__text,
+#reviewSix .modal-btn__text {
   font-size: clamp(14px, 2vw, 18px);
 }
 #leaveRequest .modal-item,
-#review .modal-item {
+#review .modal-item,
+#reviewTwo .modal-item,
+#reviewThree .modal-item,
+#reviewFour .modal-item,
+#reviewFive .modal-item,
+#reviewSix .modal-item {
   display: flex;
   flex-direction: column;
   width: 45%;
 }
 #leaveRequest .modal-item span,
-#review .modal-item span {
+#review .modal-item span,
+#reviewTwo .modal-item span,
+#reviewThree .modal-item span,
+#reviewFour .modal-item span,
+#reviewFive .modal-item span,
+#reviewSix .modal-item span {
   font-size: 32px;
   font-family: "Lithium_tf", sans-serif;
 }
 #leaveRequest .modal-item input,
-#review .modal-item input {
+#review .modal-item input,
+#reviewTwo .modal-item input,
+#reviewThree .modal-item input,
+#reviewFour .modal-item input,
+#reviewFive .modal-item input,
+#reviewSix .modal-item input {
   height: 54px;
   background-color: transparent;
   border: none;
@@ -1583,40 +1653,75 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   color: #F2F2F2;
 }
 #leaveRequest .modal-item.checkbox,
-#review .modal-item.checkbox {
+#review .modal-item.checkbox,
+#reviewTwo .modal-item.checkbox,
+#reviewThree .modal-item.checkbox,
+#reviewFour .modal-item.checkbox,
+#reviewFive .modal-item.checkbox,
+#reviewSix .modal-item.checkbox {
   margin-top: 7px;
   flex-direction: row;
   align-items: center;
   gap: 8px;
 }
 #leaveRequest .modal-item.checkbox input,
-#review .modal-item.checkbox input {
+#review .modal-item.checkbox input,
+#reviewTwo .modal-item.checkbox input,
+#reviewThree .modal-item.checkbox input,
+#reviewFour .modal-item.checkbox input,
+#reviewFive .modal-item.checkbox input,
+#reviewSix .modal-item.checkbox input {
   width: 18px;
   height: 18px;
 }
 #leaveRequest .modal-item.checkbox span,
-#review .modal-item.checkbox span {
+#review .modal-item.checkbox span,
+#reviewTwo .modal-item.checkbox span,
+#reviewThree .modal-item.checkbox span,
+#reviewFour .modal-item.checkbox span,
+#reviewFive .modal-item.checkbox span,
+#reviewSix .modal-item.checkbox span {
   color: #B3B3B3;
   font-size: 14px;
 }
 #leaveRequest .modal-radio,
-#review .modal-radio {
+#review .modal-radio,
+#reviewTwo .modal-radio,
+#reviewThree .modal-radio,
+#reviewFour .modal-radio,
+#reviewFive .modal-radio,
+#reviewSix .modal-radio {
   margin-top: 24px;
 }
 #leaveRequest .modal-radio .modal-checkbox__title span,
-#review .modal-radio .modal-checkbox__title span {
+#review .modal-radio .modal-checkbox__title span,
+#reviewTwo .modal-radio .modal-checkbox__title span,
+#reviewThree .modal-radio .modal-checkbox__title span,
+#reviewFour .modal-radio .modal-checkbox__title span,
+#reviewFive .modal-radio .modal-checkbox__title span,
+#reviewSix .modal-radio .modal-checkbox__title span {
   font-size: 32px;
   font-family: "Lithium_tf", sans-serif;
 }
 #leaveRequest .modal-radio .modal-checkbox__items,
-#review .modal-radio .modal-checkbox__items {
+#review .modal-radio .modal-checkbox__items,
+#reviewTwo .modal-radio .modal-checkbox__items,
+#reviewThree .modal-radio .modal-checkbox__items,
+#reviewFour .modal-radio .modal-checkbox__items,
+#reviewFive .modal-radio .modal-checkbox__items,
+#reviewSix .modal-radio .modal-checkbox__items {
   display: flex;
   flex-direction: column;
   margin-top: 24px;
   gap: 15px;
 }
 #leaveRequest .modal-radio .modal-checkbox__items .modal-checkbox__item,
-#review .modal-radio .modal-checkbox__items .modal-checkbox__item {
+#review .modal-radio .modal-checkbox__items .modal-checkbox__item,
+#reviewTwo .modal-radio .modal-checkbox__items .modal-checkbox__item,
+#reviewThree .modal-radio .modal-checkbox__items .modal-checkbox__item,
+#reviewFour .modal-radio .modal-checkbox__items .modal-checkbox__item,
+#reviewFive .modal-radio .modal-checkbox__items .modal-checkbox__item,
+#reviewSix .modal-radio .modal-checkbox__items .modal-checkbox__item {
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -1624,12 +1729,22 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   gap: 8px;
 }
 #leaveRequest .modal-radio .modal-checkbox__items .modal-checkbox__item input,
-#review .modal-radio .modal-checkbox__items .modal-checkbox__item input {
+#review .modal-radio .modal-checkbox__items .modal-checkbox__item input,
+#reviewTwo .modal-radio .modal-checkbox__items .modal-checkbox__item input,
+#reviewThree .modal-radio .modal-checkbox__items .modal-checkbox__item input,
+#reviewFour .modal-radio .modal-checkbox__items .modal-checkbox__item input,
+#reviewFive .modal-radio .modal-checkbox__items .modal-checkbox__item input,
+#reviewSix .modal-radio .modal-checkbox__items .modal-checkbox__item input {
   width: 25px;
   height: 25px;
 }
 #leaveRequest .modal-checkbox,
-#review .modal-checkbox {
+#review .modal-checkbox,
+#reviewTwo .modal-checkbox,
+#reviewThree .modal-checkbox,
+#reviewFour .modal-checkbox,
+#reviewFive .modal-checkbox,
+#reviewSix .modal-checkbox {
   display: flex;
   margin-top: 32px;
   flex-direction: row;
@@ -1637,29 +1752,54 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   gap: 8px;
 }
 #leaveRequest .modal-checkbox input,
-#review .modal-checkbox input {
+#review .modal-checkbox input,
+#reviewTwo .modal-checkbox input,
+#reviewThree .modal-checkbox input,
+#reviewFour .modal-checkbox input,
+#reviewFive .modal-checkbox input,
+#reviewSix .modal-checkbox input {
   width: 32px;
   height: 32px;
 }
 #leaveRequest .modal-checkbox span,
-#review .modal-checkbox span {
+#review .modal-checkbox span,
+#reviewTwo .modal-checkbox span,
+#reviewThree .modal-checkbox span,
+#reviewFour .modal-checkbox span,
+#reviewFive .modal-checkbox span,
+#reviewSix .modal-checkbox span {
   font-family: "SuisseIntlRegular", sans-serif;
   color: #f2f2f2;
   font-size: 16px;
 }
 #leaveRequest .modal-footer,
-#review .modal-footer {
+#review .modal-footer,
+#reviewTwo .modal-footer,
+#reviewThree .modal-footer,
+#reviewFour .modal-footer,
+#reviewFive .modal-footer,
+#reviewSix .modal-footer {
   border: 0;
 }
 #leaveRequest .modal-footer .modal-btn,
-#review .modal-footer .modal-btn {
+#review .modal-footer .modal-btn,
+#reviewTwo .modal-footer .modal-btn,
+#reviewThree .modal-footer .modal-btn,
+#reviewFour .modal-footer .modal-btn,
+#reviewFive .modal-footer .modal-btn,
+#reviewSix .modal-footer .modal-btn {
   display: flex;
   justify-content: center;
   margin-top: 15px;
   width: 100%;
 }
 #leaveRequest .modal-footer .modal-btn .modal-btn__container,
-#review .modal-footer .modal-btn .modal-btn__container {
+#review .modal-footer .modal-btn .modal-btn__container,
+#reviewTwo .modal-footer .modal-btn .modal-btn__container,
+#reviewThree .modal-footer .modal-btn .modal-btn__container,
+#reviewFour .modal-footer .modal-btn .modal-btn__container,
+#reviewFive .modal-footer .modal-btn .modal-btn__container,
+#reviewSix .modal-footer .modal-btn .modal-btn__container {
   font-family: "SuisseIntlRegular", sans-serif;
   cursor: pointer;
   display: flex;
@@ -1676,14 +1816,29 @@ header .header-container .header-navbar .header-leave .header-leave__arrow {
   border-radius: 100px;
 }
 #leaveRequest .modal-footer .modal-btn .modal-btn__container .modal-btn__arrow,
-#review .modal-footer .modal-btn .modal-btn__container .modal-btn__arrow {
+#review .modal-footer .modal-btn .modal-btn__container .modal-btn__arrow,
+#reviewTwo .modal-footer .modal-btn .modal-btn__container .modal-btn__arrow,
+#reviewThree .modal-footer .modal-btn .modal-btn__container .modal-btn__arrow,
+#reviewFour .modal-footer .modal-btn .modal-btn__container .modal-btn__arrow,
+#reviewFive .modal-footer .modal-btn .modal-btn__container .modal-btn__arrow,
+#reviewSix .modal-footer .modal-btn .modal-btn__container .modal-btn__arrow {
   margin-top: 5px;
 }
 
-#review .modal-header {
+#review .modal-header,
+#reviewTwo .modal-header,
+#reviewThree .modal-header,
+#reviewFour .modal-header,
+#reviewFive .modal-header,
+#reviewSix .modal-header {
   align-items: flex-start;
 }
-#review .modal-body-imgs {
+#review .modal-body-imgs,
+#reviewTwo .modal-body-imgs,
+#reviewThree .modal-body-imgs,
+#reviewFour .modal-body-imgs,
+#reviewFive .modal-body-imgs,
+#reviewSix .modal-body-imgs {
   margin-top: 20px;
   display: flex;
   gap: 32px;
